@@ -1,0 +1,4 @@
+build --cxxopt=-std=c++17 --host_cxxopt=-std=c++17
+#build --proto_compiler ':protoc' --proto_toolchain_for_cc ':cc_toolchain'
+#build:arenastring --//:arenastring
+#build:mutable-donated-string --config=arenastring --copt=-DGOOGLE_PROTOBUF_MUTABLE_DONATED_STRING=1 --host_copt=-DGOOGLE_PROTOBUF_MUTABLE_DONATED_STRING=1
